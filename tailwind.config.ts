@@ -10,9 +10,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        beyonders: ['Beyonders', 'sans-serif'],
-        conthrax: ['Conthrax', 'sans-serif'],
-        nexa: ['Nexa', 'sans-serif'],
+        arial: ['Arial', 'sans-serif'],
+        gothan: ['Gothan', 'sans-serif'],
+        renogare: ['Renogare', 'sans-serif'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -29,7 +29,7 @@ const config: Config = {
         "logo-6": "url('/images/logo-6.webp')",
         "logo-7": "url('/images/logo-7.webp')",
         "products": "url('/images/products-bg.webp')",
-        "products-mobile": "url('/images/products-mobile.png')",
+        "products-mobile": "url('/images/products-mobile2.png')",
         "icon-1": "url('/images/icon-1.webp')",
         "icon-2": "url('/images/icon-2.webp')",
         "icon-3": "url('/images/icon-3.webp')",

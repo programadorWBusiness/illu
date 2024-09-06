@@ -17,15 +17,10 @@ export const FormSend = () => {
                     <p className="text-lg md:text-3xl font-nexa">{t("ok-more")}</p>
         
                     <p className="text-xl md:text-[22px] font-semibold mt-7">{t("social")}</p>
-                    <a href="https://www.instagram.com/wave.seg/" target='_blank'>
-                        <AboutSpan link='' style={`bg-bluedark text-white text-lg`} text='Instagram'/>
-                    </a>
-                    <a href="https://www.linkedin.com/showcase/waveseg-oficial/?originalSubdomain=br" target='_blank'>
-                        <AboutSpan link='' style={`bg-bluedark text-white text-lg`} text='Linkedin' />
+                    <a href="https://ank-ilumer.com/" target='_blank'>
+                        <AboutSpan link='' style={`bg-bluedark text-white text-lg`} text='ANK & ILUMER'/>
                     </a>
 
-                    <p className="text-[22px] font-semibold mt-7">{t("back")}</p>
-                    <AboutSpan text={t("ok-back")} style="bg-bluedark text-white text-lg" link="/" />
                 </div>
             </div>
     );

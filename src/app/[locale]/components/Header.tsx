@@ -5,7 +5,6 @@ import { useRouter, usePathname } from "@/navigation";
 import LanguageToggle from "./LanguageToggle";
 import { MenuMobile } from "./MenuMobile";
 import { useState } from "react";
-import LanguageMobile from "./LanguageMobile";
 import Link from "next/link";
 
 export default function Header() {
@@ -26,12 +25,12 @@ export default function Header() {
     return (
         <header className="w-screen h-[100px] bg-redclear flex justify-center items-center">
             <div className="w-[80%] h-full flex justify-between items-center">
-                <Link href={'/'} className="flex justify-items-center items-center" title="Home">
+                <Link href={'/'} className="flex justify-items-center items-center" title="ilumer">
                     <div className="w-[177px] h-[60px] bg-illumer bg-contain bg-no-repeat bg-top"></div>
                 </Link>
 
 
-                <ul className="w-full h-full hidden justify-around items-end font-[MontSerrat] uppercase relative text-[8.5px] md:flex md:text-[10px] lg:text-[14px]">
+                <ul className="w-full h-full hidden justify-around items-end font-arial uppercase relative text-[8.5px] md:flex md:text-[10px] lg:text-[14px]">
                     {menuItems.map((item) => {
                         // Verifica se o item é a página atual
                         const isActive =
