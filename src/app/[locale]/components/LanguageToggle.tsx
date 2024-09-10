@@ -20,7 +20,7 @@ export default function LanguageToggle() {
     return (
         <div className='relative z-30 flex justify-end items-center md:relative md:pr-0'>
             {/* Div que mostra o idioma atual e a seta */}
-            <div className={`w-[61px] h-[34px] rounded-3xl ${isOpen ? 'rounded-es-none' : ''} bg-red-900 flex justify-center items-center cursor-pointer space-x-3`} onClick={toggleDropdown}>
+            <div className={`w-[60px] h-[30px] rounded-3xl ${isOpen ? 'rounded-es-none' : ''} bg-red-900 flex justify-center items-center cursor-pointer space-x-3`} onClick={toggleDropdown}>
                 <span className={`text-white transform transition-transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}>▼</span>
 
                 <Image
@@ -28,7 +28,7 @@ export default function LanguageToggle() {
                     src={`/images/${currentLocale}.webp`}
                     width={30}
                     height={30}
-                    className="w-[25px] h-[25px] rounded-full border border-white"
+                    className="w-[20px] h-[20px] rounded-full border border-white"
                 />
             </div>
 

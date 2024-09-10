@@ -41,7 +41,7 @@ export default function Header() {
                         return (
                             <li
                                 key={item.key}
-                                className={`font-conthrax cursor-pointer ${item.key === 'Blog' ? 'max-w-[90px]' : 'max-w-[106px]'} leading-3 pb-[39px] font-semibold text-center 
+                                className={`font-conthrax cursor-pointer ${item.key === 'Blog' ? 'max-w-[90px]' : 'max-w-[106px]'} leading-3 pb-[39px] font-medium text-center 
                                 ${isActive ? 'border-b-2 border-white' : 'border-b-2 border-browndark hover:border-white'} 
                                 text-white`}
                                 onClick={() => router.push(item.href)}

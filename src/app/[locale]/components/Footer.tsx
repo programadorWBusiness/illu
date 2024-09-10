@@ -12,7 +12,9 @@ export const Footer = () => {
         <footer className="w-screen h-full bg-redclear flex justify-center items-center md:h-[120px] flex-col" id="contact">
             <div className="w-[90%] h-full flex justify-between items-center flex-col mb-6 md:w-[70%] md:mb-0 md:flex-row">
                 <Link href={'/'} className="flex justify-items-center items-center mt-6 md:mt-0" title="Home">
-                    <div className="w-[177px] h-[60px] bg-illumer bg-contain bg-no-repeat bg-top"></div>
+                    <div className="w-[177px] h-[60px] bg-illumer bg-contain bg-no-repeat bg-top relative">
+                        <span className="text-white absolute right-[-20px] bottom-2 font-bold font-gothan">S.A</span>
+                    </div>
                 </Link>
 
                 <div className="w-full h-full flex justify-between text-[10px] font-renogare uppercase items-center text-white

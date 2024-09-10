@@ -11,7 +11,7 @@ export default function HomePage() {
       <section>
         <div className='w-screen h-[90vh] flex justify-center mb-4 relative'>
           <div className='w-full h-full flex justify-center mb-4 bg-containers bg-cover bg-center bg-no-repeat relative'>
-            <div className='absolute w-full h-full bg-black/80'></div>
+            <div className='absolute w-full h-full bg-black/50'></div>
           </div>
 
           <div className='absolute w-full h-full flex justify-between items-center flex-col'>
@@ -93,19 +93,19 @@ export default function HomePage() {
         <div className='w-[90%] h-full flex justify-center items-center flex-col md:flex-row md:h-[210px]' id='services'>
           <div className='w-full h-[130px] bg-browndark flex justify-center items-center space-x-5 md:h-[70%] xl:h-full'>
             <div className='w-[20%] h-full bg-icon-1 bg-contain bg-center bg-no-repeat'></div>
-            <h6 className='w-[40%] h-full flex justify-center items-center text-[20px] font-bold text-white 
+            <h6 className='w-[40%] h-full flex justify-center items-center text-[20px] font-medium text-white 
                 md:w-[40%] md:text-[16px] xl:text-[27px] xl:w-[38%]'>
                   {t('serv-1')}</h6>
           </div>
           <div className='w-full h-[130px] bg-redclear flex justify-center items-center space-x-5 md:h-[70%] xl:h-full'>
             <div className='w-[20%] h-full bg-icon-2 bg-contain bg-center bg-no-repeat'></div>
-            <h6 className='w-[40%] h-full flex justify-center items-center text-[20px] font-bold text-white 
+            <h6 className='w-[40%] h-full flex justify-center items-center text-[20px] font-medium text-white 
                 md:w-[50%] md:text-[16px] xl:text-[27px] xl:w-[40%]'>
                   {t('serv-2')}</h6>
           </div>
           <div className='w-full h-[130px] bg-browndark flex justify-center items-center space-x-5 md:h-[70%] xl:h-full'>
             <div className='w-[20%] h-full bg-icon-3 bg-contain bg-center bg-no-repeat'></div>
-            <h6 className='w-[40%] h-full flex justify-center items-center text-[20px] font-bold text-white 
+            <h6 className='w-[40%] h-full flex justify-center items-center text-[20px] font-medium text-white 
                   md:w-[50%] md:text-[16px] xl:text-[27px] xl:w-[48%] 2xl:w-[44%]'>
                     {t('serv-3')}</h6>
           </div>

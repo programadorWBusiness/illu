@@ -33,6 +33,7 @@ const config: Config = {
         "icon-1": "url('/images/icon-1.webp')",
         "icon-2": "url('/images/icon-2.webp')",
         "icon-3": "url('/images/icon-3.webp')",
+        "pt": "url('https://cdn.pixabay.com/photo/2020/02/26/02/30/brazil-4880477_640.png')"
       },
       colors: {
         "bluedark" : "#002D3A",
