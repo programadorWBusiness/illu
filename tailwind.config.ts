@@ -30,9 +30,9 @@ const config: Config = {
         "logo-7": "url('/images/logo-7.webp')",
         "products": "url('/images/products-bg.webp')",
         "products-mobile": "url('/images/products-mobile2.png')",
-        "icon-1": "url('/images/icon-1.webp')",
-        "icon-2": "url('/images/icon-2.webp')",
-        "icon-3": "url('/images/icon-3.webp')",
+        "icon-1": "url('/images/icone-1.png')",
+        "icon-2": "url('/images/icone-2.png')",
+        "icon-3": "url('/images/icone-3.png')",
         "pt": "url('https://cdn.pixabay.com/photo/2020/02/26/02/30/brazil-4880477_640.png')"
       },
       colors: {
