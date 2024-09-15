@@ -71,8 +71,10 @@ export default function HomePage() {
 
 
 
-      <div className='w-screen h-[450px] bg-products-mobile bg-[#F0F0F0] mt-16 bg-contain bg-no-repeat bg-bottom uppercase
+      <div className='w-screen h-[450px] bg-products-mobile bg-[#F0F0F0] mt-16 relative bg-contain bg-no-repeat bg-bottom uppercase
               md:bg-center md:h-[400px] lg:h-[450px] md:bg-products' title={t('products-legend')}>
+                <div className='hidden w-[20%] h-[15%] bg-logo-cert bg-center bg-contain bg-no-repeat absolute 
+                top-[4%] right-[2%] md:block lg:top-[8%] lg:right-[3%] lg:w-[15%] 2xl:right-[9.5%]'></div>
         <div className='w-full h-full flex justify-start items-center flex-col md:justify-center pt-4 md:pt-6
               md:items-start md:flex-row lg:pt-12'>
           <h2 className='text-[27px] font-bold font-renogare text-redclear' id='products'>
