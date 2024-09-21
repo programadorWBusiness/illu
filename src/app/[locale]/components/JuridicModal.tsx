@@ -16,8 +16,15 @@ type Content = {
     li12: string;
     li13: string;
     li14: string;
-    li15: string; 
+    li15: string;
     li16: string;
+    li17: string;
+    li18: string;
+    li19: string;
+    li20: string;
+    li21: string;
+    li22: string;
+    li23: string;
 };
 
 type Props = {
@@ -36,7 +43,7 @@ const JuridicModal = ({ isVisible, onClose, content }: Props) => {
                 <div className="flex justify-center items-center w-full h-full flex-col">
                     <div className='w-full h-[80%] overflow-auto custom-scrollbar flex justify-start flex-col text-base font-medium 
                        space-y-4 text-bluedark text-justify px-2 lg:text-lg lg:w-[100%] lg:px-6'>
-                        <h2 className='text-3xl font-bold'>{content.title} <span className='text-red-600'>{content.li1}</span> {content.li16}</h2>
+                        <h2 className='text-3xl font-bold'>{content.title} <span className='text-laranja'>{content.li1}</span></h2>
                         <p>{content.li2}</p>
 
                         <p>{content.li3}</p>
@@ -46,40 +53,68 @@ const JuridicModal = ({ isVisible, onClose, content }: Props) => {
                         <p>{content.li5}</p>
 
                         <p>{content.li6}</p>
-                        {content.li10 &&
-                            <>
-                                <h2 className='text-3xl font-bold'>{content.li1} <span className='text-red-600'>{content.li7}</span></h2>
+                        <h2>{content.li7}</h2>
 
-                                <p>{content.li8}</p>
+                        <p>{content.li8}</p>
 
-                                <p>
-                                    <span className='pl-8'></span>
-                                    {content.li9}
-                                </p>
+                        <p>
+                            {content.li9}
+                        </p>
 
-                                <h2 className='text-2xl font-bold'>{content.li10}</h2>
+                        <h2>{content.li10}</h2>
 
-                                <p>
-                                    {content.li11}
-                                </p>
+                        <p>
+                            {content.li11}
+                        </p>
 
-                                <p>
-                                    {content.li12}
-                                </p>
+                        <p>
+                            {content.li12}
+                        </p>
 
-                                <p>
-                                    {content.li13}
-                                </p>
+                        <p>
+                            {content.li13}
+                        </p>
 
-                                <p>
-                                    {content.li14}
-                                </p>
+                        <p>
+                            {content.li14}
+                        </p>
 
-                                <p>
-                                    {content.li15}
-                                </p>
-                            </>
-                        }
+                        <p>
+                            {content.li15}
+                        </p>
+                        
+                        <p>
+                            {content.li16}
+                        </p>
+
+                        <p>
+                            {content.li17}
+                        </p>
+
+                        <p>
+                            {content.li18}
+                        </p>
+
+                        <p>
+                            {content.li19}
+                        </p>
+                        
+                        <p>
+                            {content.li20}
+                        </p>
+
+                        <p>
+                            {content.li21}
+                        </p>
+
+                        <p>
+                            {content.li22}
+                        </p>
+
+                        <p>
+                            {content.li23}
+                        </p>
+                        
                     </div>
                 </div>
             </div>

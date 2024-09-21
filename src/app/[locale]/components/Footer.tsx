@@ -13,7 +13,7 @@ export const Footer = () => {
 
 
     const [isVisible, setIsVisible] = useState(false);
-    const [modalContent, setModalContent] = useState<{ title: string; li1: string; li2: string; li3: string; li4: string; li5: string; li6: string; li7: string; li8: string; li9: string; li10: string; li11: string; li12: string; li13: string; li14: string; li15: string; li16: string }>({
+    const [modalContent, setModalContent] = useState<{ title: string; li1: string; li2: string; li3: string; li4: string; li5: string; li6: string; li7: string; li8: string; li9: string; li10: string; li11: string; li12: string; li13: string; li14: string; li15: string; li16: string,li17: string; li18: string; li19: string; li20: string; li21: string; li22: string; li23: string }>({
         title: '',
         li1: '',
         li2: '',
@@ -30,12 +30,19 @@ export const Footer = () => {
         li13: '',
         li14: '',
         li15: '',
-        li16: ''
+        li16: '',
+        li17: '',
+        li18: '',
+        li19: '',
+        li20: '',
+        li21: '',
+        li22: '',
+        li23: ''
     });
 
     // Função para abrir o modal
-    const openModal = (title: string, li1: string, li2: string, li3: string, li4: string, li5: string, li6: string, li7: string, li8: string, li9: string, li10: string, li11: string, li12: string, li13: string, li14: string, li15: string, li16: string) => {
-        setModalContent({ title, li1, li2, li3, li4, li5, li6, li7, li8, li9, li10, li11, li12, li13, li14, li15, li16 });
+    const openModal = (title: string, li1: string, li2: string, li3: string, li4: string, li5: string, li6: string, li7: string, li8: string, li9: string, li10: string, li11: string, li12: string, li13: string, li14: string, li15: string, li16: string, li17: string, li18: string, li19: string, li20: string, li21: string, li22: string, li23: string) => {
+        setModalContent({ title, li1, li2, li3, li4, li5, li6, li7, li8, li9, li10, li11, li12, li13, li14, li15, li16, li17, li18, li19, li20, li21, li22, li23});
         setIsVisible(true);
     };
 
@@ -75,7 +82,14 @@ export const Footer = () => {
                                 p('p1-10'),
                                 p('p1-11'),
                                 p('p1-12'),
-                                p('')
+                                p('p1-13'),
+                                p('p1-14'),
+                                p('p1-15'),
+                                p('p1-16'),
+                                p('p1-17'),
+                                p('p1-18'),
+                                p('p1-19'),
+                                p('p1-20')
                             )}>
                         {t('politic')}</a>
                     <a title={t('condiction')} className="cursor-pointer"
@@ -97,7 +111,14 @@ export const Footer = () => {
                                 p(''),
                                 p(''),
                                 p(''),
-                                p('t1-name-3'),
+                                p(''),
+                                '',
+                                '',
+                                '',
+                                '',
+                                '',
+                                '',
+                                ''
                             )}>
                         {t('condiction')}</a>
                 </div>
