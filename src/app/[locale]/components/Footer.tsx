@@ -61,8 +61,8 @@ export const Footer = () => {
                     </div>
                 </Link>
 
-                <div className="w-full h-full flex justify-between text-[10px] font-renogare uppercase items-center text-white
-                     mt-6 md:text-[13px] md:mt-0 md:w-[40%] lg:space-x-4 2xl:w-[30%]">
+                <div className="w-full h-full flex justify-center text-[10px] font-renogare uppercase items-center text-white
+                     mt-6 md:justify-end md:text-[13px] md:mt-0 md:w-[40%] lg:space-x-4 2xl:w-[30%]">
                     <a title={t('politic')} className="cursor-pointer"
                         onClick={() =>
                             openModal(
@@ -92,7 +92,7 @@ export const Footer = () => {
                                 p('p1-20')
                             )}>
                         {t('politic')}</a>
-                    <a title={t('condiction')} className="cursor-pointer"
+                    {/*<a title={t('condiction')} className="cursor-pointer"
                         onClick={() =>
                             openModal(
                                 p('t1-name-1'),
@@ -120,7 +120,7 @@ export const Footer = () => {
                                 '',
                                 ''
                             )}>
-                        {t('condiction')}</a>
+                        {t('condiction')}</a>*/}
                 </div>
             </div>
 
