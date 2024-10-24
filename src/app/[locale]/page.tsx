@@ -74,7 +74,7 @@ export default function HomePage() {
       <div className='w-screen h-[400px] bg-[#F0F0F0] mt-16 relative flex justify-center items-center uppercase
               md:bg-center md:h-[400px] lg:h-[450px]' title={t('products-legend')}>
         <video src="/images/products-bg-mobile.mp4"
-          className='w-full h-full object-contain absolute pt-24 md:hidden'
+          className='w-full h-full object-contain absolute pt-20 md:hidden'
           autoPlay
           loop
           muted
@@ -83,7 +83,7 @@ export default function HomePage() {
         </video>
 
         <video src="/images/products-bg.mp4"
-          className='w-full h-full object-fill hidden absolute md:block '
+          className='w-full h-full object-fill hidden absolute md:block md:pt-24'
           autoPlay
           loop
           muted
