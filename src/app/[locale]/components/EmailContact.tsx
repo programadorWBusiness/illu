@@ -74,7 +74,7 @@ export const EmailContact = () => {
 
         console.log(process.env.NEXT_PUBLIC_EMAILJS_USER_ID)
 
-        emailjs.send("service_sehnuts", "template_tpoqg2s", templateParams, "b8thRCDhLUkpVcbAB")
+        emailjs.send("service_4h6xaar", "template_t9sslgw", templateParams, "foZKop5-FZNn0fpgA")
             .then((response) => {
                 setMessage('');
                 setEmail('');
