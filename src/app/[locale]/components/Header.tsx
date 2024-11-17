@@ -94,7 +94,7 @@ export default function Header() {
                             })}
                         </ul>
                     </nav>
-                    <div className="w-full h-full pt-2">
+                    <div className="w-full h-full pt-2 flex justify-end">
                     <LanguageToggle />
                     </div>
                 </div>
