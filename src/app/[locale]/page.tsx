@@ -81,6 +81,7 @@ export default function HomePage() {
           playsInline
         >
         </video>
+        
 
         <video src="/images/products-bg.mp4"
           className='w-full h-full object-fill hidden absolute md:block md:pt-24'
