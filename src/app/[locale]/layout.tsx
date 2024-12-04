@@ -11,9 +11,9 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "ilumer, Construindo relações duradouras.",
+  title: "Ilumer, Construindo relações duradouras.",
   description: "Desde 1986, construindo relações duradouras, baseadas na confiança, com eficiência e transparência.",
-  keywords: 'ilumer, relações duradouras, confiança, eficiência, transparência, ANK, Babyfral, LadySec, PetSec, AdultSec, ECO VIDA, LIMPDENT',
+  keywords: 'Ilumer, relações duradouras, confiança, eficiência, transparência, ANK, Babyfral, LadySec, PetSec, AdultSec, ECO VIDA, LIMPDENT',
   robots: {
     index: true,
     follow: true
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://ilumer.com",
-    title: "ilumer, Construindo relações duradouras.",
+    title: "Ilumer, Construindo relações duradouras.",
     description: "Desde 1986, construindo relações duradouras, baseadas na confiança, com eficiência e transparência.",
-    siteName: "ilumer",
+    siteName: "Ilumer",
     images: [{
       url: "/images/products-mobile2.png",
       alt: "Imagem representativa da ilumer"
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@ilumer",
     creator: "@ilumer",
-    title: "ilumer, Construindo relações duradouras.",
+    title: "Ilumer, Construindo relações duradouras.",
     description: "Desde 1986, construindo relações duradouras, baseadas na confiança, com eficiência e transparência.",
     images: [{
       url: "/images/products-mobile2.png",
