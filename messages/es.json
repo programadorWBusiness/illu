@@ -37,8 +37,8 @@
         "message": "Mensaje",
         "message-erro": "El mensaje debe contener al menos 10 caracteres.",
         "send": "Enviar",
-        "ok": "Gracias por enviarnos tu información. Esperamos hablar contigo pronto...",
-        "ok-more": "Descubre más sobre ANK & ILUMER",
+        "ok": "Gracias por contactarnos. Le responderemos a la brevedad.",
+        "ok-more": "",
         "social": "Sitio Oficial:",
         "back": "Volver a la página de inicio:",
         "ok-back": "Volver"
