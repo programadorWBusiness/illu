@@ -16,7 +16,7 @@ export const FormSend = () => {
                         {t("ok")}</h1>
                     <p className="text-lg md:text-3xl font-nexa">{t("ok-more")}</p>
         
-                    <p className="text-xl md:text-[22px] font-semibold mt-7">{t("social")}</p>
+                    <p className="text-xl md:text-[22px] font-semibold mt-7"></p>
                     <a href="https://www.ilumer-sa.com/">
                         <AboutSpan link='' style={`bg-bluedark text-white text-lg`} text='Home'/>
                     </a>
